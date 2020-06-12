@@ -1,0 +1,104 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: beige;
+}
+
+a {
+  color: #00B7FF;
+}
+.c1{
+  background-color: rgb(54, 105, 54);
+}
+.first{
+  text-align: center;
+  font-size: 300%;
+  color:#00B7FF;
+}
+
+svg{
+  border:2px solid green;
+  background-color: azure;
+  
+}
+
+.death,.testc,.total{
+  text-align: center;
+}
+
+
+
+
+.second p{
+  text-align: start;
+  margin-top:40px;
+  font-weight: bold;
+}
+
+
+
+.chart{
+  position: absolute;
+  width:100%;
+  
+}
+
+
+table,tr,td,th{
+  border:0.5px solid black;
+}
+
+table{
+  border-collapse: collapse;
+  padding-right: 2px;
+  margin-right: 3px;
+  width: 100%;
+}
+
+td,th{
+  text-align: start;
+  
+}
+
+
+th{
+  background-color: burlywood;
+  text-align: left;
+  font-weight: bold;
+}
+
+tr:nth-child(even){
+      background-color:aqua;
+}
+
+tr:nth-child(odd){
+      background-color:turquoise;
+}
+
+
+
+.bar {
+  fill: steelblue;
+}
+
+.last{
+  text-align: end;
+}
+
+
+
+@media screen and (max-width:600px){
+  .first{
+    text-align: center;
+    font-size: 150%;
+    color:#00B7FF;
+  }
+
+
+  .death,.testc,.total{
+    text-align: start;
+  }
+  
+
+}
+
